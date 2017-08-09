@@ -17,6 +17,6 @@ public:
 	void Rotate(float ReativeSpeed);
 
 private:
-	UPROPERTY(EditAnyWhere, Category = Setup)
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
 	float MaxDregressPerSecond = 25;
 };
